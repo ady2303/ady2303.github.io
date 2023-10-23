@@ -9,7 +9,7 @@ body {
 }
 
 header, footer {
-  background-color: #ffa500;
+  background-color: #1b8b82;
   text-align: left;
 }
 
@@ -41,11 +41,11 @@ h1 {
 
 h2 {
   font-family: Poppins;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 600;
   letter-spacing: 0.3px;
   text-align: left;
-  color: #ffa500;
+  color: #27be7f;
   padding: 10px 0px 10px 10px;
 }
 
@@ -60,6 +60,11 @@ img {
   margin: auto;
   padding: 50px;
   display: block;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
 }
 
 .bio {
@@ -86,7 +91,7 @@ font-family: 'Work Sans';
 }
 
 .myButton:hover {
-    background-color:#e69708;
+    background-color:#327d76;
 }
 
 .myButton:active {
@@ -97,6 +102,15 @@ font-family: 'Work Sans';
 .recipe {
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.5);
   width: 100%;
+  overflow: hidden;
+}
+
+.project_img {
+  transition: transform .5s ease;
+}
+
+.project_img:hover {
+  transform: scale(1.05);
 }
 
 .a {
