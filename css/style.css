@@ -9,7 +9,7 @@ body {
 }
 
 header, footer {
-  background-color: #1b8b82;
+  background-color: #219d92;
   text-align: left;
 }
 
@@ -159,14 +159,23 @@ font-family: 'Work Sans';
   padding: 20px;
 }
 
+footer div {
+  height: 10%;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  display: flex;
+  align-content: center;
+  padding: 10px 20px;
+  color: rgba(255, 255, 255, 1);
+  background-image: linear-gradient(to right, rgb(63, 185, 167), aquamarine);
+}
+
 .container {
   /*  min-width: 500px; */
     margin: auto;
   }
 
-footer {
-  margin-top: 44px;
-}
+
 
 @media all and (max-width:700px) {
   main {
